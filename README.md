@@ -67,14 +67,17 @@ Use Sail to install PHP and Node.js dependencies:
 
 ## ✅ Useful Commands
 
-| Command | Description |
-|---|---|
-| `./vendor/bin/sail up -d` | Start the containers |
-| `./vendor/bin/sail artisan migrate` | Run database migrations |
-| `./vendor/bin/sail npm run dev` | Compile frontend assets (if needed) |
-| `./vendor/bin/sail artisan` | Run Artisan commands |
-| `./vendor/bin/sail tinker` | Interactive console |
-| `./vendor/bin/sail test` | Run tests |
+| Command                             | Description                         |
+|-------------------------------------|-------------------------------------|
+| `./vendor/bin/sail up -d`           | Start the containers                |
+| `./vendor/bin/sail artisan migrate` | Run database migrations             |
+| `./vendor/bin/sail npm run dev`     | Compile frontend assets (if needed) |
+| `./vendor/bin/sail artisan`         | Run Artisan commands                |
+| `./vendor/bin/sail tinker`          | Interactive console                 |
+| `./vendor/bin/sail test`            | Run tests                           |
+| `composer lint`                     | Run code linting                    |
+| `composer test`                     | Run parallel tests                  |
+| `composer models`                   | Run ide helper for models           |
 
 ---
 
